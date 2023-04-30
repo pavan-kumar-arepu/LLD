@@ -7,5 +7,8 @@ public class B extends A {
         System.out.println("Constructor of B");
     }
 
+    B (String name) {
+        System.out.println(name);
+    }
 
 }

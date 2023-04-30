@@ -11,6 +11,7 @@ public class C extends B {
     }
 
     C (String name, String sex) {
-        System.out.println("Constructor of C:\nName " + name + "Sex: " + sex);
+        super("Calling Constructor B from C");
+        System.out.println("Constructor of C:\nName " + name + "\n" + "Sex: " + sex);
     }
 }
